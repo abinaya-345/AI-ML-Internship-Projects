@@ -1,108 +1,176 @@
-# AI/ML Internship Projects
+# 🤖 AI/ML Internship Projects
 
-This repository contains my **Artificial Intelligence and Machine Learning internship projects, assignments, and practical implementations** using Python and popular machine learning libraries.
+Welcome to my **AI/ML Internship Projects** repository! 🚀
 
-The projects focus on developing practical skills in **Machine Learning, Data Preprocessing, Data Cleaning, Feature Engineering, Data Visualization, and Predictive Modeling**.
+This repository contains my weekly **Artificial Intelligence and Machine Learning assignments, practical implementations, and mini-projects** completed during my internship.
 
-## Internship Work
+The projects focus on **Machine Learning fundamentals, data preprocessing, supervised learning, regression, classification, model evaluation, and data visualization**.
 
-### Week 1 – ML Fundamentals & Data Preprocessing
+---
 
-The first week focuses on the fundamentals of Machine Learning and data preprocessing techniques.
+## 📚 Internship Progress
 
-**Topics Covered:**
+| Week       | Topic                                | Project                | Status      |
+| ---------- | ------------------------------------ | ---------------------- | ----------- |
+| 🗓️ Week 1 | ML Fundamentals & Data Preprocessing | Titanic Data Cleaning  | ✅ Completed |
+| 🗓️ Week 2 | Supervised Learning – Regression     | House Price Prediction | ✅ Completed |
+| 🗓️ Week 3 | Machine Learning                     | Coming Soon            | 🔄 Upcoming |
+| 🗓️ Week 4 | Machine Learning                     | Coming Soon            | 🔄 Upcoming |
 
-* Introduction to Machine Learning
-* Supervised Learning
-* Unsupervised Learning
-* Reinforcement Learning
-* Dataset importing and exploration
-* Data cleaning
-* Handling missing values
-* Feature engineering
-* Categorical data encoding
-* Feature scaling
-* Train/Test Split
+---
 
-## Mini Project 1 – Titanic Survival Prediction
+# 🗓️ Week 1 – ML Fundamentals & Data Preprocessing
 
-The Week 1 mini project focuses on cleaning and preprocessing the **Titanic Dataset**.
+### 🎯 Focus
 
-### Objectives
+The first week focuses on **Machine Learning fundamentals and data preprocessing**.
 
-* Load and explore the Titanic dataset using Pandas
-* Analyze dataset information using `.info()`
-* Generate statistical summaries using `.describe()`
-* Identify and handle missing values
-* Apply mean/median imputation
-* Encode categorical variables
-* Encode `Sex` using LabelEncoder
-* Encode `Embarked` using One-Hot Encoding
-* Visualize the age distribution
-* Generate a cleaned dataset as a CSV file
+### 📌 Topics Covered
 
-## Technologies Used
+* 🤖 Introduction to Machine Learning
+* 📊 Supervised Learning
+* 🔍 Unsupervised Learning
+* 🎯 Reinforcement Learning
+* 📥 Dataset importing and exploration
+* 🧹 Data cleaning
+* 🔧 Handling missing values
+* ⚙️ Feature engineering
+* 🔤 Categorical variable encoding
+* 📏 Feature scaling
+* ✂️ Train/Test Split
 
-* Python
-* Google Colab
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* GitHub
+### 🚢 Mini Project: Titanic Data Cleaning
 
-## Project Structure
+**Notebook:** `Titanic_Data_Cleaning_Week_1.ipynb`
+
+### 📝 Tasks
+
+* 📂 Load the Titanic dataset
+* 🔎 Explore the dataset using Pandas
+* 📊 Generate `.info()` and `.describe()` summaries
+* 🧹 Handle missing values
+* 🔢 Apply mean/median imputation
+* 🔤 Encode categorical variables
+* 👤 Encode the `Sex` column
+* 🗺️ Encode the `Embarked` column
+* 📈 Visualize age distribution
+* 💾 Create a cleaned dataset
+
+---
+
+# 🗓️ Week 2 – Supervised Learning
+
+### 🎯 Focus
+
+Week 2 focuses on **Supervised Learning, Regression, Classification, model training, and evaluation**.
+
+### 📌 Topics Covered
+
+* 📈 Linear Regression
+* 📊 Logistic Regression
+* 🌳 Decision Tree
+* 🌲 Random Forest
+* 📉 Mean Squared Error (MSE)
+* 📐 R² Score
+* 🔲 Confusion Matrix
+
+### 🏠 Mini Project: House Price Prediction Model
+
+**Notebook:** `House_Price_Prediction_Week_2.ipynb`
+
+### 📝 Tasks
+
+* 🏘️ Load the housing dataset
+* 🔍 Explore the dataset
+* 🧹 Prepare the data for machine learning
+* 📈 Train a Linear Regression model
+* 💰 Predict house prices
+* 📊 Evaluate the model using R² score
+* 📉 Calculate model error
+* 📌 Plot predicted vs. actual house prices
+
+---
+
+# 🛠️ Technologies & Tools
+
+### 💻 Programming
+
+* 🐍 Python
+
+### 📚 Libraries
+
+* 🐼 Pandas
+* 🔢 NumPy
+* 📊 Matplotlib
+* 📈 Seaborn
+* 🤖 Scikit-learn
+
+### ☁️ Development Environment
+
+* 🔵 Google Colab
+* 🐙 GitHub
+
+---
+
+# 📂 Repository Structure
 
 ```text
 AI-ML-Internship-Projects/
 │
-├── Week-01-ML-Fundamentals/
-│   ├── Titanic_Data_Cleaning.ipynb
-│   └── cleaned_titanic.csv
+├── 📁 Week-01-ML-Fundamentals/
+│   └── 📓 Titanic_Data_Cleaning_Week_1.ipynb
 │
-├── Week-02/
+├── 📁 Week-02-Supervised-Learning/
+│   └── 📓 House_Price_Prediction_Week_2.ipynb
 │
-├── Week-03/
+├── 📁 Week-03/
+│   └── 🔄 Coming Soon
 │
-├── Week-04/
+├── 📁 Week-04/
+│   └── 🔄 Coming Soon
 │
-└── README.md
+└── 📄 README.md
 ```
 
-## How to Run
+---
 
-The projects are developed using **Google Colab**.
+# 🎓 Learning Outcomes
 
-1. Open the required `.ipynb` file.
-2. Open it in Google Colab.
-3. Run the cells sequentially.
-4. The required datasets can be loaded directly through the notebook when an online dataset source is used.
-5. View the generated outputs, analysis, and visualizations.
+Through these internship projects, I am developing practical skills in:
 
-## Learning Outcomes
+* 🤖 Machine Learning
+* 🐍 Python Programming
+* 🧹 Data Cleaning
+* 🔧 Data Preprocessing
+* 📊 Data Visualization
+* 📈 Regression Models
+* 🎯 Classification Models
+* 📐 Model Evaluation
+* 🧠 Machine Learning Workflow
+* ☁️ Google Colab
+* 🐙 GitHub and Version Control
 
-Through this internship, I am developing practical knowledge in:
+---
 
-* Machine Learning fundamentals
-* Data preprocessing
-* Data cleaning
-* Missing-value treatment
-* Categorical variable encoding
-* Data visualization
-* Python for Machine Learning
-* Working with datasets
-* Google Colab
-* Git and GitHub
+# 📈 Internship Progress
 
-## Future Work
+**Week 1:** ✅ Completed
+**Week 2:** ✅ Completed
+**Week 3:** 🔄 Upcoming
+**Week 4:** 🔄 Upcoming
 
-Additional internship assignments and machine learning projects will be added to this repository as the internship progresses.
+I will continue updating this repository with new assignments and projects throughout my AI/ML internship. 🚀
 
-## Author
+---
+
+## 👩‍💻 Author
 
 **Abinaya N**
 
-B.E. Computer Science and Engineering
+🎓 B.E. Computer Science and Engineering
+🤖 AI/ML Intern
+💻 Python | Machine Learning | Data Analytics | AI
 
-AI/ML Intern
+---
+
+⭐ **If you find this repository useful, consider giving it a star!**
