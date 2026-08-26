@@ -4,18 +4,18 @@ Welcome to my **AI/ML Internship Projects** repository! 🚀
 
 This repository contains my weekly **Artificial Intelligence and Machine Learning assignments, practical implementations, and mini-projects** completed during my internship.
 
-The projects focus on **Machine Learning fundamentals, data preprocessing, supervised learning, regression, classification, model evaluation, and data visualization**.
+The projects cover **Machine Learning fundamentals, data preprocessing, supervised learning, regression, model evaluation, unsupervised learning, clustering, dimensionality reduction, and data visualization**.
 
 ---
 
 ## 📚 Internship Progress
 
-| Week       | Topic                                | Project                | Status      |
-| ---------- | ------------------------------------ | ---------------------- | ----------- |
-| 🗓️ Week 1 | ML Fundamentals & Data Preprocessing | Titanic Data Cleaning  | ✅ Completed |
-| 🗓️ Week 2 | Supervised Learning – Regression     | House Price Prediction | ✅ Completed |
-| 🗓️ Week 3 | Machine Learning                     | Coming Soon            | 🔄 Upcoming |
-| 🗓️ Week 4 | Machine Learning                     | Coming Soon            | 🔄 Upcoming |
+| Week       | Topic                                    | Project                   | Status      |
+| ---------- | ---------------------------------------- | ------------------------- | ----------- |
+| 🗓️ Week 1 | ML Fundamentals & Data Preprocessing     | 🚢 Titanic Data Cleaning  | ✅ Completed |
+| 🗓️ Week 2 | Supervised Learning                      | 🏠 House Price Prediction | ✅ Completed |
+| 🗓️ Week 3 | Unsupervised Learning & Model Evaluation | 🌸 Iris Flower Clustering | ✅ Completed |
+| 🗓️ Week 4 | Coming Soon                              | 🚀 Upcoming Project       | 🔄 Upcoming |
 
 ---
 
@@ -23,19 +23,18 @@ The projects focus on **Machine Learning fundamentals, data preprocessing, super
 
 ### 🎯 Focus
 
-The first week focuses on **Machine Learning fundamentals and data preprocessing**.
+Week 1 focuses on **Machine Learning fundamentals, data cleaning, feature engineering, and data preprocessing**.
 
 ### 📌 Topics Covered
 
-* 🤖 Introduction to Machine Learning
-* 📊 Supervised Learning
+* 🤖 What is Machine Learning?
+* 👨‍🏫 Supervised Learning
 * 🔍 Unsupervised Learning
 * 🎯 Reinforcement Learning
-* 📥 Dataset importing and exploration
-* 🧹 Data cleaning
-* 🔧 Handling missing values
+* 📥 Importing and exploring datasets
+* 🧹 Handling missing data
 * ⚙️ Feature engineering
-* 🔤 Categorical variable encoding
+* 🔤 Encoding categorical variables
 * 📏 Feature scaling
 * ✂️ Train/Test Split
 
@@ -43,18 +42,18 @@ The first week focuses on **Machine Learning fundamentals and data preprocessing
 
 **Notebook:** `Titanic_Data_Cleaning_Week_1.ipynb`
 
-### 📝 Tasks
+### 📝 Tasks Completed
 
-* 📂 Load the Titanic dataset
-* 🔎 Explore the dataset using Pandas
-* 📊 Generate `.info()` and `.describe()` summaries
-* 🧹 Handle missing values
-* 🔢 Apply mean/median imputation
-* 🔤 Encode categorical variables
-* 👤 Encode the `Sex` column
-* 🗺️ Encode the `Embarked` column
-* 📈 Visualize age distribution
-* 💾 Create a cleaned dataset
+* 📂 Loaded the Titanic dataset
+* 🔎 Explored the dataset
+* 📊 Used `.info()` and `.describe()`
+* 🧹 Handled missing data
+* 📐 Applied mean/median imputation
+* 🔤 Encoded categorical variables
+* 👤 Encoded the `Sex` column
+* 🗺️ Encoded the `Embarked` column
+* 📈 Visualized age distribution
+* 💾 Created a cleaned dataset
 
 ---
 
@@ -62,12 +61,12 @@ The first week focuses on **Machine Learning fundamentals and data preprocessing
 
 ### 🎯 Focus
 
-Week 2 focuses on **Supervised Learning, Regression, Classification, model training, and evaluation**.
+Week 2 focuses on **Supervised Learning, model building, training, prediction, and model evaluation**.
 
 ### 📌 Topics Covered
 
 * 📈 Linear Regression
-* 📊 Logistic Regression
+* 🔢 Logistic Regression
 * 🌳 Decision Tree
 * 🌲 Random Forest
 * 📉 Mean Squared Error (MSE)
@@ -78,22 +77,61 @@ Week 2 focuses on **Supervised Learning, Regression, Classification, model train
 
 **Notebook:** `House_Price_Prediction_Week_2.ipynb`
 
-### 📝 Tasks
+### 📝 Tasks Completed
 
-* 🏘️ Load the housing dataset
-* 🔍 Explore the dataset
-* 🧹 Prepare the data for machine learning
-* 📈 Train a Linear Regression model
-* 💰 Predict house prices
-* 📊 Evaluate the model using R² score
-* 📉 Calculate model error
-* 📌 Plot predicted vs. actual house prices
+* 🏘️ Loaded the housing dataset
+* 🔎 Explored the dataset
+* 🧹 Prepared the data
+* 📈 Trained a Linear Regression model
+* 💰 Predicted house prices
+* 📊 Evaluated the model using R² score
+* 📉 Calculated prediction error
+* 📌 Plotted predicted vs. actual values
+
+---
+
+# 🗓️ Week 3 – Unsupervised Learning & Model Evaluation
+
+### 🎯 Focus
+
+Week 3 focuses on **Clustering, Dimensionality Reduction, Scaling, and Model Evaluation**.
+
+### 📌 Topics Covered
+
+* 🔵 K-Means Clustering
+* 📉 PCA (Principal Component Analysis)
+* 📊 Elbow Method
+* ⚙️ Data Scaling
+* 💾 Model Saving and Loading
+* 📈 Cluster Visualization
+
+### 🌸 Mini Project: Iris Flower Clustering
+
+**Notebook:** `Iris_Flower_Clustering_Week_3.ipynb`
+
+### 📂 Dataset
+
+**Iris Dataset**
+
+The dataset is loaded directly in **Google Colab** without manually downloading the dataset.
+
+### 📝 Tasks Completed
+
+* 🌸 Loaded the Iris dataset
+* ⚙️ Scaled the dataset
+* 📊 Applied the Elbow Method
+* 🔵 Applied K-Means clustering with **K = 3**
+* 📉 Applied PCA for dimensionality reduction
+* 📈 Visualized the clusters using a scatter plot
+* 🔍 Compared predicted clusters with true labels
+* 📐 Calculated clustering evaluation results
+* 💾 Saved clustering results
 
 ---
 
 # 🛠️ Technologies & Tools
 
-### 💻 Programming
+### 💻 Programming Language
 
 * 🐍 Python
 
@@ -105,16 +143,17 @@ Week 2 focuses on **Supervised Learning, Regression, Classification, model train
 * 📈 Seaborn
 * 🤖 Scikit-learn
 
-### ☁️ Development Environment
+### ☁️ Platforms & Tools
 
 * 🔵 Google Colab
 * 🐙 GitHub
+* 📓 Jupyter Notebook
 
 ---
 
 # 📂 Repository Structure
 
-```text
+```text id="d7u6s3"
 AI-ML-Internship-Projects/
 │
 ├── 📁 Week-01-ML-Fundamentals/
@@ -123,43 +162,58 @@ AI-ML-Internship-Projects/
 ├── 📁 Week-02-Supervised-Learning/
 │   └── 📓 House_Price_Prediction_Week_2.ipynb
 │
-├── 📁 Week-03/
-│   └── 🔄 Coming Soon
-│
-├── 📁 Week-04/
-│   └── 🔄 Coming Soon
+├── 📁 Week-03-Unsupervised-Learning/
+│   ├── 📓 Iris_Flower_Clustering_Week_3.ipynb
+│   └── 📄 iris_clustering_results.csv
 │
 └── 📄 README.md
 ```
 
 ---
 
-# 🎓 Learning Outcomes
+# 🎓 Skills Gained
 
-Through these internship projects, I am developing practical skills in:
+Through these projects, I am developing practical skills in:
 
 * 🤖 Machine Learning
 * 🐍 Python Programming
 * 🧹 Data Cleaning
 * 🔧 Data Preprocessing
 * 📊 Data Visualization
-* 📈 Regression Models
-* 🎯 Classification Models
+* 📈 Regression
+* 🎯 Classification
+* 🔵 K-Means Clustering
+* 📉 PCA
 * 📐 Model Evaluation
-* 🧠 Machine Learning Workflow
+* 🧠 Machine Learning Workflows
 * ☁️ Google Colab
-* 🐙 GitHub and Version Control
+* 🐙 GitHub
 
 ---
 
 # 📈 Internship Progress
 
-**Week 1:** ✅ Completed
-**Week 2:** ✅ Completed
-**Week 3:** 🔄 Upcoming
-**Week 4:** 🔄 Upcoming
+### 🟢 Completed
 
-I will continue updating this repository with new assignments and projects throughout my AI/ML internship. 🚀
+**Week 1:** 🚢 Titanic Data Cleaning
+**Week 2:** 🏠 House Price Prediction
+**Week 3:** 🌸 Iris Flower Clustering
+
+### 🔄 Upcoming
+
+**Week 4:** 🚀 New AI/ML Project
+
+---
+
+# 🚀 How to Run the Projects
+
+1. Open the required `.ipynb` notebook.
+2. Open the notebook in **Google Colab**.
+3. Run the cells sequentially.
+4. Follow the preprocessing and machine learning steps.
+5. View the generated results and visualizations.
+6. Save the completed notebook.
+7. Upload the notebook directly to GitHub.
 
 ---
 
@@ -174,3 +228,5 @@ I will continue updating this repository with new assignments and projects throu
 ---
 
 ⭐ **If you find this repository useful, consider giving it a star!**
+
+🚀 **More AI/ML internship projects will be added as the internship progresses.**
