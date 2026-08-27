@@ -2,20 +2,20 @@
 
 Welcome to my **AI/ML Internship Projects** repository! 🚀
 
-This repository contains my weekly **Artificial Intelligence and Machine Learning assignments, practical implementations, and mini-projects** completed during my internship.
+This repository contains my **weekly assignments, practical implementations, and mini-projects** completed as part of my Artificial Intelligence and Machine Learning internship.
 
-The projects cover **Machine Learning fundamentals, data preprocessing, supervised learning, regression, model evaluation, unsupervised learning, clustering, dimensionality reduction, and data visualization**.
+The internship covers **Machine Learning fundamentals, data preprocessing, supervised learning, regression, classification, unsupervised learning, clustering, dimensionality reduction, and a major capstone project**.
 
 ---
 
 ## 📚 Internship Progress
 
-| Week       | Topic                                    | Project                   | Status      |
-| ---------- | ---------------------------------------- | ------------------------- | ----------- |
-| 🗓️ Week 1 | ML Fundamentals & Data Preprocessing     | 🚢 Titanic Data Cleaning  | ✅ Completed |
-| 🗓️ Week 2 | Supervised Learning                      | 🏠 House Price Prediction | ✅ Completed |
-| 🗓️ Week 3 | Unsupervised Learning & Model Evaluation | 🌸 Iris Flower Clustering | ✅ Completed |
-| 🗓️ Week 4 | Coming Soon                              | 🚀 Upcoming Project       | 🔄 Upcoming |
+| Week       | Topic                                    | Project                          | Status      |
+| ---------- | ---------------------------------------- | -------------------------------- | ----------- |
+| 🗓️ Week 1 | ML Fundamentals & Data Preprocessing     | 🚢 Titanic Data Cleaning         | ✅ Completed |
+| 🗓️ Week 2 | Supervised Learning                      | 🏠 House Price Prediction        | ✅ Completed |
+| 🗓️ Week 3 | Unsupervised Learning & Model Evaluation | 🌸 Iris Flower Clustering        | ✅ Completed |
+| 🗓️ Week 4 | Capstone Project                         | 🏦 Bank Loan Approval Prediction | ✅ Completed |
 
 ---
 
@@ -23,31 +23,31 @@ The projects cover **Machine Learning fundamentals, data preprocessing, supervis
 
 ### 🎯 Focus
 
-Week 1 focuses on **Machine Learning fundamentals, data cleaning, feature engineering, and data preprocessing**.
+Week 1 focuses on **Machine Learning fundamentals, data cleaning, and feature engineering**.
 
 ### 📌 Topics Covered
 
-* 🤖 What is Machine Learning?
+* 🤖 Introduction to Machine Learning
 * 👨‍🏫 Supervised Learning
 * 🔍 Unsupervised Learning
 * 🎯 Reinforcement Learning
 * 📥 Importing and exploring datasets
 * 🧹 Handling missing data
 * ⚙️ Feature engineering
-* 🔤 Encoding categorical variables
+* 🔤 Categorical variable encoding
 * 📏 Feature scaling
 * ✂️ Train/Test Split
 
-### 🚢 Mini Project: Titanic Data Cleaning
+### 🚢 Mini Project: Titanic Survival Prediction – Data Cleaning
 
 **Notebook:** `Titanic_Data_Cleaning_Week_1.ipynb`
 
 ### 📝 Tasks Completed
 
-* 📂 Loaded the Titanic dataset
-* 🔎 Explored the dataset
-* 📊 Used `.info()` and `.describe()`
-* 🧹 Handled missing data
+* 📂 Loaded and explored the Titanic dataset
+* 🔎 Used Pandas for data analysis
+* 📊 Generated `.info()` and `.describe()` summaries
+* 🧹 Handled missing values
 * 📐 Applied mean/median imputation
 * 🔤 Encoded categorical variables
 * 👤 Encoded the `Sex` column
@@ -61,7 +61,7 @@ Week 1 focuses on **Machine Learning fundamentals, data cleaning, feature engine
 
 ### 🎯 Focus
 
-Week 2 focuses on **Supervised Learning, model building, training, prediction, and model evaluation**.
+Week 2 focuses on **model building, training, prediction, and accuracy testing**.
 
 ### 📌 Topics Covered
 
@@ -79,9 +79,9 @@ Week 2 focuses on **Supervised Learning, model building, training, prediction, a
 
 ### 📝 Tasks Completed
 
-* 🏘️ Loaded the housing dataset
+* 🏘️ Loaded a housing dataset
 * 🔎 Explored the dataset
-* 🧹 Prepared the data
+* 🧹 Prepared the data for modelling
 * 📈 Trained a Linear Regression model
 * 💰 Predicted house prices
 * 📊 Evaluated the model using R² score
@@ -94,14 +94,14 @@ Week 2 focuses on **Supervised Learning, model building, training, prediction, a
 
 ### 🎯 Focus
 
-Week 3 focuses on **Clustering, Dimensionality Reduction, Scaling, and Model Evaluation**.
+Week 3 focuses on **Clustering, Dimensionality Reduction, and Scaling**.
 
 ### 📌 Topics Covered
 
 * 🔵 K-Means Clustering
 * 📉 PCA (Principal Component Analysis)
 * 📊 Elbow Method
-* ⚙️ Data Scaling
+* ⚙️ Feature Scaling
 * 💾 Model Saving and Loading
 * 📈 Cluster Visualization
 
@@ -113,7 +113,7 @@ Week 3 focuses on **Clustering, Dimensionality Reduction, Scaling, and Model Eva
 
 **Iris Dataset**
 
-The dataset is loaded directly in **Google Colab** without manually downloading the dataset.
+The dataset is loaded directly in **Google Colab**, without manually downloading the dataset.
 
 ### 📝 Tasks Completed
 
@@ -122,10 +122,48 @@ The dataset is loaded directly in **Google Colab** without manually downloading 
 * 📊 Applied the Elbow Method
 * 🔵 Applied K-Means clustering with **K = 3**
 * 📉 Applied PCA for dimensionality reduction
-* 📈 Visualized the clusters using a scatter plot
+* 📈 Visualized the clusters
 * 🔍 Compared predicted clusters with true labels
-* 📐 Calculated clustering evaluation results
+* 📐 Evaluated clustering results
 * 💾 Saved clustering results
+
+---
+
+# 🗓️ Week 4 – Capstone Project
+
+### 🎯 Focus
+
+Week 4 is the **Major Project / Capstone Project**, focusing on a complete Machine Learning workflow, documentation, and presentation.
+
+### 🏦 Project: Bank Loan Approval Prediction
+
+**Option:** 2 – Bank Loan Approval Prediction
+
+**Notebook:** `Bank_Loan_Approval_Prediction_Week_4.ipynb`
+
+### 📂 Dataset
+
+**Loan Prediction Dataset**
+
+### 📝 Tasks Completed
+
+* 📥 Loaded the loan prediction dataset
+* 🔎 Explored the dataset
+* 🧹 Cleaned missing values
+* 🔤 Processed categorical data
+* 👤 Processed Gender
+* 💍 Processed Marital Status
+* 💰 Processed income-related features
+* ✂️ Split the data into training and testing sets
+* 🌲 Trained a Random Forest classification model
+* 🎯 Predicted loan approval status
+* 📊 Evaluated the model
+* 📐 Calculated accuracy
+* 🎯 Calculated precision
+* 🔄 Calculated recall
+* 🔲 Created a confusion matrix
+* 📊 Visualized feature importance
+* 💾 Saved prediction results
 
 ---
 
@@ -153,7 +191,7 @@ The dataset is loaded directly in **Google Colab** without manually downloading 
 
 # 📂 Repository Structure
 
-```text id="d7u6s3"
+```text
 AI-ML-Internship-Projects/
 │
 ├── 📁 Week-01-ML-Fundamentals/
@@ -166,6 +204,11 @@ AI-ML-Internship-Projects/
 │   ├── 📓 Iris_Flower_Clustering_Week_3.ipynb
 │   └── 📄 iris_clustering_results.csv
 │
+├── 📁 Week-04-Capstone-Project/
+│   ├── 📓 Bank_Loan_Approval_Prediction_Week_4.ipynb
+│   ├── 📄 cleaned_loan_dataset.csv
+│   └── 📄 loan_prediction_results.csv
+│
 └── 📄 README.md
 ```
 
@@ -173,47 +216,80 @@ AI-ML-Internship-Projects/
 
 # 🎓 Skills Gained
 
-Through these projects, I am developing practical skills in:
+Through these four weeks, I am developing practical skills in:
 
-* 🤖 Machine Learning
+* 🤖 Artificial Intelligence
+* 🧠 Machine Learning
 * 🐍 Python Programming
 * 🧹 Data Cleaning
 * 🔧 Data Preprocessing
 * 📊 Data Visualization
 * 📈 Regression
 * 🎯 Classification
+* 🌲 Random Forest
 * 🔵 K-Means Clustering
 * 📉 PCA
 * 📐 Model Evaluation
-* 🧠 Machine Learning Workflows
+* 🔍 Feature Analysis
 * ☁️ Google Colab
 * 🐙 GitHub
 
 ---
 
-# 📈 Internship Progress
+# 📊 Project Summary
 
-### 🟢 Completed
-
-**Week 1:** 🚢 Titanic Data Cleaning
-**Week 2:** 🏠 House Price Prediction
-**Week 3:** 🌸 Iris Flower Clustering
-
-### 🔄 Upcoming
-
-**Week 4:** 🚀 New AI/ML Project
+| Week      | Project                       | Main Technique     | Status |
+| --------- | ----------------------------- | ------------------ | ------ |
+| 🚢 Week 1 | Titanic Data Cleaning         | Data Preprocessing | ✅      |
+| 🏠 Week 2 | House Price Prediction        | Linear Regression  | ✅      |
+| 🌸 Week 3 | Iris Flower Clustering        | K-Means + PCA      | ✅      |
+| 🏦 Week 4 | Bank Loan Approval Prediction | Random Forest      | ✅      |
 
 ---
 
-# 🚀 How to Run the Projects
+# 🚀 Learning Journey
 
-1. Open the required `.ipynb` notebook.
-2. Open the notebook in **Google Colab**.
-3. Run the cells sequentially.
-4. Follow the preprocessing and machine learning steps.
-5. View the generated results and visualizations.
-6. Save the completed notebook.
-7. Upload the notebook directly to GitHub.
+### Week 1
+
+🧹 **Learn → Clean → Preprocess**
+
+### Week 2
+
+📈 **Train → Predict → Evaluate**
+
+### Week 3
+
+🔵 **Cluster → Reduce Dimensions → Visualize**
+
+### Week 4
+
+🏦 **Build → Train → Evaluate → Predict**
+
+---
+
+# 🎯 Internship Outcome
+
+By completing these projects, I gained hands-on experience in the complete Machine Learning workflow:
+
+```text
+📂 Data Collection
+       ↓
+🔎 Data Exploration
+       ↓
+🧹 Data Cleaning
+       ↓
+⚙️ Data Preprocessing
+       ↓
+📊 Data Visualization
+       ↓
+🤖 Model Building
+       ↓
+🎯 Prediction
+       ↓
+📐 Model Evaluation
+       ↓
+📈 Result Analysis
+```
 
 ---
 
@@ -229,4 +305,4 @@ Through these projects, I am developing practical skills in:
 
 ⭐ **If you find this repository useful, consider giving it a star!**
 
-🚀 **More AI/ML internship projects will be added as the internship progresses.**
+🚀 **This repository will continue to be updated with new AI/ML projects and learning experiences.**
